@@ -1,0 +1,160 @@
+potion.potency.4=V
+potion.potency.5=VI
+potion.potency.6=VII
+potion.potency.7=VIII
+potion.potency.8=XI
+potion.potency.9=X
+potion.potency.10=XI
+potion.potency.11=XII
+potion.potency.12=XIII
+potion.potency.13=XIV
+potion.potency.14=XV
+potion.potency.15=XVI
+potion.potency.16=XVII
+potion.potency.17=XVIII
+potion.potency.18=XIX
+potion.potency.19=XX
+potion.potency.20=XXI
+potion.potency.21=XXII
+potion.potency.22=XXIII
+potion.potency.23=XXIV
+potion.potency.24=XXV
+potion.potency.25=XXVI
+potion.potency.26=XXVII
+potion.potency.27=XXVIII
+potion.potency.28=XXIX
+potion.potency.29=XXX
+potion.potency.30=XXXI
+potion.potency.31=XXXII
+potion.potency.32=XXXIII
+potion.potency.33=XXXIV
+potion.potency.34=XXXV
+potion.potency.35=XXXVI
+potion.potency.36=XXXVII
+potion.potency.37=XXXVIII
+potion.potency.38=XXXIX
+potion.potency.39=XL
+potion.potency.40=XLI
+potion.potency.41=XLII
+potion.potency.42=XLIII
+potion.potency.43=XLIV
+potion.potency.44=XLV
+potion.potency.45=XLVI
+potion.potency.46=XLVII
+potion.potency.47=XLVIII
+potion.potency.48=XLIX
+potion.potency.49=L
+potion.potency.50=LI
+potion.potency.51=LII
+potion.potency.52=LIII
+potion.potency.53=LIV
+potion.potency.54=LV
+potion.potency.55=LVI
+potion.potency.56=LVII
+potion.potency.57=LVIII
+potion.potency.58=LIX
+potion.potency.59=LX
+potion.potency.60=LXI
+potion.potency.61=LXII
+potion.potency.62=LXIII
+potion.potency.63=LXIV
+potion.potency.64=LXV
+potion.potency.65=LXVI
+potion.potency.66=LXVII
+potion.potency.67=LXVIII
+potion.potency.68=LXIX
+potion.potency.69=LXX
+potion.potency.70=LXXI
+potion.potency.71=LXXII
+potion.potency.72=LXXIII
+potion.potency.73=LXXIV
+potion.potency.74=LXXV
+potion.potency.75=LXXVI
+potion.potency.76=LXXVII
+potion.potency.77=LXXVIII
+potion.potency.78=LXXIX
+potion.potency.79=LXXX
+potion.potency.80=LXXXI
+potion.potency.81=LXXXII
+potion.potency.82=LXXXIII
+potion.potency.83=LXXXIV
+potion.potency.84=LXXXV
+potion.potency.85=LXXXVI
+potion.potency.86=LXXXVII
+potion.potency.87=LXXXVIII
+potion.potency.88=LXXXIX
+potion.potency.89=XC
+potion.potency.90=XCI
+potion.potency.91=XCII
+potion.potency.92=XCIII
+potion.potency.93=XCIV
+potion.potency.94=XCV
+potion.potency.95=XCVI
+potion.potency.96=XCVII
+potion.potency.97=XCVIII
+potion.potency.98=XCIX
+potion.potency.99=C
+
+tile.potionmixer.name=Potion Mixer's Cauldron
+
+achievement.craft.potion.mixer=What's so different about it?
+achievement.craft.potion.mixer.desc=Crafted Potion Mixer's Cauldron
+
+achievement.brew.uninteresting.potion=Huh... Intriguing...
+achievement.brew.uninteresting.potion.desc=Brewed an Uninteresting Potion
+
+achievement.mix.potion=Oh that is rather simple...
+achievement.mix.potion.desc=Successfully mixed a potion
+
+achievement.brew.splash.mixed.potion=Splish Splash, Mixed Mash
+achievement.brew.splash.mixed.potion.desc=Brewed a splash potion of the mixed variety
+
+achievement.mix.gold.apple=You have the Midas Touch?
+achievement.mix.gold.apple.desc=Woah absorption! In a Potion? Get outta town!
+
+achievement.mix.gold.apple.notch=A Notch Potion?
+achievement.mix.gold.apple.notch.desc=Really? this was the best use for this?
+
+achievement.mix.potion.corrupt=This is not what I meant to happen >_>
+achievement.mix.potion.corrupt.desc=A potion started to corrupt
+
+achievement.mix.puffer.fish=But brewing this is fine?
+achievement.mix.puffer.fish.desc=Discovered that not all brewing ingredients have the same effects when mixed in raw ;)
+
+achievement.mix.rotten.flesh=Why?
+achievement.mix.rotten.flesh.desc=Just why?
+
+achievement.mix.food=Yummy food potions :D
+achievement.mix.food.desc=Almost pointless really >_>
+
+achievement.mix.nether.star=Everyday I'm doubling
+achievement.mix.nether.star.desc=Managed to find a way to double a potions effectiveness
+
+achievement.mix.prismarine.crystal=We are going to have to go right to ludicrous  speed!
+achievement.mix.prismarine.crystal.desc=Ludicrous speed! We have never gone that fast before, I'm not sure if this ship can handle it.
+
+achievement.mix.prismarine.shard=I am moving in slow motion
+achievement.mix.prismarine.shard.desc=(read in a slowed down voice)
+
+achievement.mix.skull.wither=Oh noes I am withering away...
+achievement.mix.skull.wither.desc=Found the secret to withering potions
+
+achievement.mix.skull.zombie=Woah, how does this even make sense?
+achievement.mix.skull.zombie.desc=Seriously? the normal drop is bad for you...
+
+achievement.mix.fermented.spider.eye=Who turned out the lights?
+achievement.mix.fermented.spider.eye.desc=Oh maybe I fermented my own eye by mistake?
+
+achievement.mix.redstone=Are you compensating for something?
+achievement.mix.redstone.desc=Yes that's a joke about long things.
+
+achievement.mix.stabilizer=Woah was that a mistake?
+achievement.mix.stabilizer.desc=It's stable... but at what cost?
+
+
+botania.potion.soulCross.postfix=Potion of Soul Cross
+botania.potion.featherFeet.postfix=Potion of Feather Feet
+botania.potion.emptiness.postfix=Potion of Emptiness
+botania.potion.bloodthirst.postfix=Potion of Bloodthirst
+botania.potion.allure.postfix=Potion of Allure
+botania.potion.clear.postfix=Potion of Absolution

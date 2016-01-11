@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "level=0,potion=0": {"model": "potionmixer:potionmixer_empty"},
+    "level=1,potion=0": {"model": "potionmixer:potionmixer_level1"},
+    "level=2,potion=0": {"model": "potionmixer:potionmixer_level2"},
+    "level=3,potion=0": {"model": "potionmixer:potionmixer_level3"},
+    "level=0,potion=1": {"model": "potionmixer:potionmixer_empty"},
+    "level=1,potion=1": {"model": "potionmixer:potionmixer_potion_level1"},
+    "level=2,potion=1": {"model": "potionmixer:potionmixer_potion_level2"},
+    "level=3,potion=1": {"model": "potionmixer:potionmixer_potion_level3"},
+    "inventory":{"model": "potionmixer:potionmixer_empty"}
+  }
+}

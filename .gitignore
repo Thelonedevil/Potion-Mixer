@@ -1,0 +1,10 @@
+/*
+!/src
+!/src/*
+!/gradle*
+!/build.gradle
+!/.gitignore
+!/gradle
+!/*.md
+!/libs
+!/libs/*
