@@ -28,7 +28,7 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.oredict.ShapedOreRecipe;
 
-@Mod(modid = PotionMixerMod.MODID, name = PotionMixerMod.NAME, version = PotionMixerMod.VERSION,guiFactory = "uk.tldcode.minecraft.potionmixer.GuiFactory",dependencies = "after:"+PotionMixerMod.BOTANIA)
+@Mod(modid = PotionMixerMod.MODID, name = PotionMixerMod.NAME, version = PotionMixerMod.VERSION,guiFactory = "uk.tldcode.minecraft.potionmixer.GuiFactory",dependencies = "after:"+PotionMixerMod.BOTANIA+","+PotionMixerMod.POTION_CORE)
 public class PotionMixerMod {
     public static final String MODID = "potionmixer";
     public static final String VERSION = "1.0";
@@ -38,8 +38,10 @@ public class PotionMixerMod {
     public static int pageIndex;
 
     public static final String BOTANIA = "Botania";
+    public static final String POTION_CORE = "potioncore";
 
     public static boolean botania = false;
+    public static boolean potioncore = false;
 
     public static Configuration configFile;
     public static boolean debug = false;
@@ -110,5 +112,6 @@ public class PotionMixerMod {
     @EventHandler
     public void postInit(FMLPostInitializationEvent event){
         botania = Loader.isModLoaded(BOTANIA);
+        potioncore = Loader.isModLoaded(POTION_CORE);
     }
 }

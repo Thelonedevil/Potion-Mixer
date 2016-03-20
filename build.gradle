@@ -21,11 +21,11 @@ plugins {
 }
 */
 
-version = "1.1"
+version = "1.2"
 group = "uk.tldcode.minecaft" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = "potionmixer"
 minecraft {
-    version = "1.8.9-11.15.0.1691"
+    version = "1.8.9-11.15.1.1764"
     runDir = "run"
     
     // the mappings can be changed at any time, and must be in the following format.
@@ -50,7 +50,8 @@ dependencies {
     // the 'provided' configuration is for optional dependencies that exist at compile-time but might not at runtime.
     //provided 'com.mod-buildcraft:buildcraft:6.0.8:dev'
 
-    provided files("libs/Botania-deobf.jar")
+    provided files("libs/Botania.r1.8-248-MC1.8-a1aa50b-deobf.jar")
+    provided files("libs/PotionCore-1.00_for_1.8.9-deobf.jar")
     // the deobf configurations:  'deobfCompile' and 'deobfProvided' are the same as the normal compile and provided,
     // except that these dependencies get remapped to your current MCP mappings
     //deobfCompile 'com.mod-buildcraft:buildcraft:6.0.8:dev'

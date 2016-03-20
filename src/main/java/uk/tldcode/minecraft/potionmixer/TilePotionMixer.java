@@ -1,5 +1,6 @@
 package uk.tldcode.minecraft.potionmixer;
 
+import com.tmtravlr.potioncore.potion.ItemPotionCorePotion;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemPotion;
 import net.minecraft.item.ItemStack;
@@ -116,7 +117,7 @@ public class TilePotionMixer extends TileEntity implements ITickable {
     }
 
     private void corrupt(Random rand) {
-        if (potions.keySet().isEmpty()|| stable) {
+        if (potions.keySet().isEmpty() || stable) {
             return;
         }
         int id = new ArrayList<Integer>(potions.keySet()).get(rand.nextInt(potions.keySet().size()));
@@ -141,8 +142,12 @@ public class TilePotionMixer extends TileEntity implements ITickable {
     }
 
     public void addPotion(ItemStack item) {
-        @SuppressWarnings("unchecked")
-        List<PotionEffect> effects = ((ItemPotion) item.getItem()).getEffects(item);
+        List<PotionEffect> effects = Collections.emptyList();
+        if (PotionMixerMod.potioncore && item.getItem() instanceof ItemPotionCorePotion) {
+            effects = ((ItemPotionCorePotion) item.getItem()).getEffects(item);
+        } else if (item.getItem() instanceof ItemPotion) {
+            effects = ((ItemPotion) item.getItem()).getEffects(item);
+        }
         for (PotionEffect effect : effects)
             addEffect(effect);
     }
@@ -155,9 +160,10 @@ public class TilePotionMixer extends TileEntity implements ITickable {
         }
     }
 
-    public  void addRandomEffect(){
+    public void addRandomEffect() {
         addRandomEffect(false);
     }
+
     public void addRandomEffect(boolean force) {
         Random rand = new Random();
         int max = Potion.potionTypes.length - 1;
@@ -206,7 +212,7 @@ public class TilePotionMixer extends TileEntity implements ITickable {
         }
     }
 
-    public void stabilize(){
+    public void stabilize() {
         stable = true;
     }
 }

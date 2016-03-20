@@ -135,7 +135,14 @@ public class BlockPotionMixer extends BlockCauldron implements ITileEntityProvid
             } else if (state.getValue(LEVEL) == 3 && state.getValue(POTION) == 1) {
                 boolean bool = false;
                 EntityPlayer player = worldIn.getClosestPlayerToEntity(entityIn, 3);
-                if (stack.getItem() == Items.golden_apple) {
+                if (stack.getTagCompound() != null && stack.getTagCompound().hasKey("CustomPotionEffects")) {
+                    tilePotionMixer.addPotion(stack);
+                    setPotionFull(worldIn, pos, state, 1);
+                    entityIn.setDead();
+                    bool= true;
+                    if (!worldIn.isRemote)
+                        worldIn.spawnEntityInWorld(new EntityItem(worldIn, (double) pos.getX() + 0.5D, (double) pos.getY() + 1.5D, (double) pos.getZ() + 0.5D, new ItemStack(Items.glass_bottle)));
+                } else if (stack.getItem() == Items.golden_apple) {
                     if (stack.getMetadata() == 0) {
                         if (player != null)
                             player.addStat(Achievements.getAchievement("mix.gold.apple"), 1);
